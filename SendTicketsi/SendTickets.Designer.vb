@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Form1
+Partial Class SendTickets
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -55,7 +55,7 @@ Partial Class Form1
         Me.Label1.TabIndex = 2
         Me.Label1.Text = "Transfer Batch Scale Tickets to CTRM?"
         '
-        'Form1
+        'SendTickets
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -63,7 +63,7 @@ Partial Class Form1
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
-        Me.Name = "Form1"
+        Me.Name = "SendTickets"
         Me.Text = "Send Batch Scale Tickets"
         Me.ResumeLayout(False)
         Me.PerformLayout()
