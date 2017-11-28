@@ -23,6 +23,12 @@ Partial Class Appconfigmaint
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.TextBox8 = New System.Windows.Forms.TextBox()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.TextBox7 = New System.Windows.Forms.TextBox()
+        Me.Label7 = New System.Windows.Forms.Label()
+        Me.TextBox6 = New System.Windows.Forms.TextBox()
+        Me.Label6 = New System.Windows.Forms.Label()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.TextBox5 = New System.Windows.Forms.TextBox()
@@ -35,12 +41,6 @@ Partial Class Appconfigmaint
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.Label6 = New System.Windows.Forms.Label()
-        Me.TextBox6 = New System.Windows.Forms.TextBox()
-        Me.Label7 = New System.Windows.Forms.Label()
-        Me.TextBox7 = New System.Windows.Forms.TextBox()
-        Me.Label8 = New System.Windows.Forms.Label()
-        Me.TextBox8 = New System.Windows.Forms.TextBox()
         Me.GroupBox1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -70,6 +70,57 @@ Partial Class Appconfigmaint
         Me.GroupBox1.TabIndex = 0
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "application.cfg"
+        '
+        'TextBox8
+        '
+        Me.TextBox8.Location = New System.Drawing.Point(200, 330)
+        Me.TextBox8.MaxLength = 40
+        Me.TextBox8.Name = "TextBox8"
+        Me.TextBox8.Size = New System.Drawing.Size(100, 20)
+        Me.TextBox8.TabIndex = 12
+        '
+        'Label8
+        '
+        Me.Label8.AutoSize = True
+        Me.Label8.Location = New System.Drawing.Point(57, 330)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(55, 13)
+        Me.Label8.TabIndex = 16
+        Me.Label8.Text = "Username"
+        '
+        'TextBox7
+        '
+        Me.TextBox7.Location = New System.Drawing.Point(200, 292)
+        Me.TextBox7.MaxLength = 40
+        Me.TextBox7.Name = "TextBox7"
+        Me.TextBox7.Size = New System.Drawing.Size(100, 20)
+        Me.TextBox7.TabIndex = 11
+        '
+        'Label7
+        '
+        Me.Label7.AutoSize = True
+        Me.Label7.Location = New System.Drawing.Point(57, 292)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(62, 13)
+        Me.Label7.TabIndex = 14
+        Me.Label7.Text = "Passphrase"
+        '
+        'TextBox6
+        '
+        Me.TextBox6.Location = New System.Drawing.Point(200, 255)
+        Me.TextBox6.MaxLength = 40
+        Me.TextBox6.Name = "TextBox6"
+        Me.TextBox6.Size = New System.Drawing.Size(100, 20)
+        Me.TextBox6.TabIndex = 10
+        '
+        'Label6
+        '
+        Me.Label6.AutoSize = True
+        Me.Label6.Location = New System.Drawing.Point(57, 255)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(53, 13)
+        Me.Label6.TabIndex = 12
+        Me.Label6.Text = "Password"
         '
         'Button2
         '
@@ -173,57 +224,6 @@ Partial Class Appconfigmaint
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(50, 20)
         Me.TextBox1.TabIndex = 0
-        '
-        'Label6
-        '
-        Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(57, 255)
-        Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(57, 13)
-        Me.Label6.TabIndex = 12
-        Me.Label6.Text = "Public Key"
-        '
-        'TextBox6
-        '
-        Me.TextBox6.Location = New System.Drawing.Point(200, 255)
-        Me.TextBox6.MaxLength = 40
-        Me.TextBox6.Name = "TextBox6"
-        Me.TextBox6.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox6.TabIndex = 10
-        '
-        'Label7
-        '
-        Me.Label7.AutoSize = True
-        Me.Label7.Location = New System.Drawing.Point(57, 292)
-        Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(62, 13)
-        Me.Label7.TabIndex = 14
-        Me.Label7.Text = "Passphrase"
-        '
-        'TextBox7
-        '
-        Me.TextBox7.Location = New System.Drawing.Point(200, 292)
-        Me.TextBox7.MaxLength = 40
-        Me.TextBox7.Name = "TextBox7"
-        Me.TextBox7.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox7.TabIndex = 11
-        '
-        'Label8
-        '
-        Me.Label8.AutoSize = True
-        Me.Label8.Location = New System.Drawing.Point(57, 330)
-        Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(55, 13)
-        Me.Label8.TabIndex = 16
-        Me.Label8.Text = "Username"
-        '
-        'TextBox8
-        '
-        Me.TextBox8.Location = New System.Drawing.Point(200, 330)
-        Me.TextBox8.MaxLength = 40
-        Me.TextBox8.Name = "TextBox8"
-        Me.TextBox8.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox8.TabIndex = 12
         '
         'Appconfigmaint
         '

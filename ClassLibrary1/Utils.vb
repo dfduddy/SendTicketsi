@@ -24,8 +24,8 @@ Public Class Utils
                             appval.Source_Device_Address = appsettings(key)
                         Case = "PassPhrase"
                             appval.PassPhrase = appsettings(key)
-                        Case = "Private_Key"
-                            appval.Private_Key = appsettings(key)
+                        Case = "Password"
+                            appval.Password = appsettings(key)
                         Case = "Username"
                             appval.Username = appsettings(key)
                     End Select
@@ -74,7 +74,7 @@ Public Class Utils
         Public Property Source_Path As String
         Public Property Source_Device_Address As String
         Public Property PassPhrase As String
-        Public Property Private_Key As String
+        Public Property Password As String
         Public Property Username As String
     End Class
     Public Class Appvalue
