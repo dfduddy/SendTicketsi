@@ -51,9 +51,9 @@ Partial Class SendTickets
         Me.Label1.Font = New System.Drawing.Font("Arial", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.Location = New System.Drawing.Point(89, 58)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(374, 22)
+        Me.Label1.Size = New System.Drawing.Size(389, 22)
         Me.Label1.TabIndex = 2
-        Me.Label1.Text = "Transfer Batch Scale Tickets to CTRM?"
+        Me.Label1.Text = "Transfer Batch Scale Tickets to Scoular?"
         '
         'SendTickets
         '

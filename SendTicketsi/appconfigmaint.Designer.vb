@@ -74,7 +74,7 @@ Partial Class Appconfigmaint
         'TextBox8
         '
         Me.TextBox8.Location = New System.Drawing.Point(200, 330)
-        Me.TextBox8.MaxLength = 40
+        Me.TextBox8.MaxLength = 10
         Me.TextBox8.Name = "TextBox8"
         Me.TextBox8.Size = New System.Drawing.Size(100, 20)
         Me.TextBox8.TabIndex = 12
@@ -108,7 +108,7 @@ Partial Class Appconfigmaint
         'TextBox6
         '
         Me.TextBox6.Location = New System.Drawing.Point(200, 255)
-        Me.TextBox6.MaxLength = 40
+        Me.TextBox6.MaxLength = 10
         Me.TextBox6.Name = "TextBox6"
         Me.TextBox6.Size = New System.Drawing.Size(100, 20)
         Me.TextBox6.TabIndex = 10
@@ -145,7 +145,7 @@ Partial Class Appconfigmaint
         Me.TextBox5.Location = New System.Drawing.Point(200, 208)
         Me.TextBox5.MaxLength = 40
         Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(100, 20)
+        Me.TextBox5.Size = New System.Drawing.Size(182, 20)
         Me.TextBox5.TabIndex = 9
         '
         'TextBox4
@@ -167,9 +167,9 @@ Partial Class Appconfigmaint
         'TextBox2
         '
         Me.TextBox2.Location = New System.Drawing.Point(200, 79)
-        Me.TextBox2.MaxLength = 16
+        Me.TextBox2.MaxLength = 50
         Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(100, 20)
+        Me.TextBox2.Size = New System.Drawing.Size(182, 20)
         Me.TextBox2.TabIndex = 6
         '
         'Label5
@@ -195,18 +195,18 @@ Partial Class Appconfigmaint
         Me.Label3.AutoSize = True
         Me.Label3.Location = New System.Drawing.Point(57, 121)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(85, 13)
+        Me.Label3.Size = New System.Drawing.Size(110, 13)
         Me.Label3.TabIndex = 3
-        Me.Label3.Text = "Destination Path"
+        Me.Label3.Text = "Host Destination Path"
         '
         'Label2
         '
         Me.Label2.AutoSize = True
         Me.Label2.Location = New System.Drawing.Point(57, 82)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(75, 13)
+        Me.Label2.Size = New System.Drawing.Size(100, 13)
         Me.Label2.TabIndex = 2
-        Me.Label2.Text = "SFTP Address"
+        Me.Label2.Text = "SFTP Host Address"
         '
         'Label1
         '
